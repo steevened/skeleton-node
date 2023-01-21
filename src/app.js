@@ -4,6 +4,7 @@ const morgan = require('morgan')
 const db = require('./utils/database')
 const initModels = require('./models/initModels')
 const authRouter = require('./routes/auth.routes')
+const transporter = require('./utils/mailer')
 
 const app = express()
 
